@@ -1,0 +1,8 @@
+# goal is to make a fibbonacci numbers
+
+a, b = 1, 1
+list_fib = []
+while a <= 55:
+    list_fib.append(a)
+    a, b = b, a + b
+print(list_fib)
